@@ -1,0 +1,12 @@
+# Brain tumor YOLOv8 dataset configuration.
+# Run from this project root with:
+#   yolo detect train data=brain-tumor.yaml model=yolov8n.pt epochs=50 imgsz=640
+
+path: brain-tumor
+train: images/train
+val: images/val
+test:
+
+names:
+  0: negative
+  1: positive
